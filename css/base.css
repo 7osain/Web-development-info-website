@@ -1,0 +1,51 @@
+body{
+	margin: 0px;
+}
+.pageMargin{
+	margin: 2%;
+	margin-top: 0px;
+}
+.navBar{
+	font-family: 'Bai Jamjuree';
+	position: fixed;
+	font-size: 24px;
+}
+.active {
+	 font-weight: bold;
+	 font-size: 32px;
+}
+#navList{
+	width: 101%;
+	max-width: 1000em;
+	text-align: center;
+	margin-top: 0px;
+	list-style-type: none;
+	background-color: #7952b3;
+	word-spacing: 5em;
+	padding: 0.3em 1.2em;
+}
+li{
+	display: inline;
+}
+a{
+		text-decoration: none;
+		color: white;
+}
+a:hover{
+	font-weight:bold;
+}
+a:visited{
+	color: white;
+	background-color:#fcf9f5;
+}
+a:active{
+	background-color: #5c3e87;
+}
+
+/* banner styling */
+
+.banner{
+	padding-top: 5%;
+	width:100%;
+	height:180px;
+}

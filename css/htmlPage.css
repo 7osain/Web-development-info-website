@@ -1,0 +1,90 @@
+/* table styling*/
+.container{
+	padding: 10%;
+	text-align: center;
+}
+.tg  {
+	border:none;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.tg td{
+	background-color:#EBF5FF;
+	border-style:solid;
+	border-width:0px;
+	color:#444;
+  font-family:Arial, sans-serif;font-size:14px;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+.tg th{
+	background-color:#409cff;
+	border-color:#9ABAD9;border-style:solid;
+	border-width:0px;
+	color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;
+	font-weight:normal;
+	overflow:hidden;padding:10px 5px;
+	word-break:normal;
+}
+.tg .tg-6s21{
+	background-color:#ffffff;
+	border-color:inherit;
+	font-size:small;
+	text-align:left;
+	vertical-align:bottom
+}
+.tg .tg-15br{
+	background-color:#ffffff;
+	border-color:inherit;
+	text-align:left;
+	text-decoration:underline;
+	vertical-align:top
+}
+.tg .tg-zv36{
+	background-color:#ffffff;
+	border-color:inherit;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top
+}
+.tg .tg-4mg0{
+	background-color:#7952b3;
+	border-color:inherit;
+	color:#ffffff;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:bottom
+}
+.tg .tg-9inw{
+	background-color:#7952b3;
+	border-color:inherit;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:bottom
+}
+.tg .tg-0pky{
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top
+}
+.tg .tg-71nf{
+	background-color:#ffffff;
+	border-color:inherit;
+	text-align:left;
+	vertical-align:bottom
+}
+.tg .tg-c6of{
+	background-color:#ffffff;
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top
+}
+.tg .tg-jq0u{
+	background-color:#ffffff;
+	border-color:inherit;
+	font-style:italic;
+	text-align:left;
+	vertical-align:top
+}
