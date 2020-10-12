@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="HTML, HTML5, CSS, JavaScript, PHP, what is HTML">
 	<title>HTML</title>
-<!-- google fonts imported to use in navbar-->
+	
+<!-- google fonts imported to be used in the website -->
 	<link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
 <!-- Custom stylesheets for the HTML page -->
-  <link rel="stylesheet" type="text/css" href="/css/base.css">
-	<link rel="stylesheet" type="text/css" href="/css/htmlPage.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/htmlPage.css">	
+<!--  this is the fontawesome kit link to import icons-->
+    <script src="https://kit.fontawesome.com/daf75fdc13.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<!-- The first div container with class navBar is the pages menu on top of each page to navigate between each other-->
 <div class="navBar">
 <ul id=navList>
-  <li><a class="active" href="index.html">HTML</a></li>
+  <li><a style="word-spacing:normal" class="active" href="index.html">	<i class="fab fa-earlybirds"></i> HTML</a></li>
   <li><a href="HTML pages/CSS.html">CSS</a></li>
   <li><a href="HTML pages/JavaScript.html">JavaScript</a></li>
-  <li><a href="">PHP</a></li>
-  <li><a style="word-spacing:normal" href="">About us</a></li>
-	<li><a style="word-spacing:normal" href="">Contact us</a></li>
+  <li><a href="HTML pages/Php.html">PHP</a></li>
+  <!-- dropdown menu from about us page -->
+  <div class="dropdown">
+  <li><a class="dropdown" style="word-spacing:normal" href="HTML pages/About us.html">About us</a></li>
+  <div class="dropdown-content">
+  <a href="https://github.com/xRx90/assignment2" target="_blank" >Khalifa</a>
+  </div>
+  </div>
+	<li><a style="word-spacing:normal" href="HTML pages/Contact us.html">Contact us</a></li>
 </ul>
 </div>
-<div class="pageMargin">
+
+<div class="pageMargin"><!-- This div contains the rest of the page to apply margins without affecting the top page menu -->
 <div>
 	<img class="banner" src="images/banner.png" alt="banner showcasing the four elements of web development HTML CSS JavaScript and Bootstrap">
 </div>
+<!-- The table below contains html tags and their description it has been styled by an external generator to give it a nice look and feel -->
 <div class="container">
 	<table class="tg">
 	<thead>
@@ -83,6 +99,14 @@
 	</tbody>
 	</table>
 </div>
+<!-- The footer is on each page and contains social media icons for social media links-->
+<footer> 
+<p> Check our </br>social media presence </br>
+<a href="www.twitter.com"><i id="twitter" class="fab fa-twitter"></i></a>&nbsp
+<a href="www.plus.google.com"><i id="googlePlus" class="fab fa-google-plus-g"></i></a>&nbsp
+<a href="www.facebook.com"><i id="facebook"class="fab fa-facebook"></i></a>
+</p>
+</footer>
 </div>
 </body>
 </html>

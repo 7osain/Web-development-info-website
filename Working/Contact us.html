@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contact us</title>
+
+<!-- google fonts imported to be used in the website -->
+  <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+<!-- Custom stylesheets for the HTML page -->
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/contactusPage.css">
+
+<!--  this is the fontawesome kit link to import icons-->
+  <script src="https://kit.fontawesome.com/daf75fdc13.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="navBar">
+<ul id=navList>
+  <li><a style="word-spacing:normal" href="../index.html"><i class="fab fa-earlybirds"></i> HTML</a></li>
+  <li><a href="CSS.html">CSS</a></li>
+  <li><a href="JavaScript.html">JavaScript</a></li>
+  <li><a href="Php.html">PHP</a></li>
+<div class="dropdown">
+  <li><a class="dropdown" style="word-spacing:normal" href="About us.html">About us</a></li>
+  <div class="dropdown-content">
+  <a href="https://github.com/xRx90/assignment2">Khalifa</a>
+  </div>
+  </div>
+  <li><a class="active" style="word-spacing:normal" href="Contact us.html">Contact us</a></li>
+</ul>
+</div>
+<div class="pageMargin";>
+  <div>
+	<img class="banner" src="../images/banner.png" alt="banner showcasing the four elements of web development HTML CSS JavaScript and Bootstrap">
+  </div>
+
+<!-- The div container below is a contact form where people can send emails to the website owner -->
+  <div id="form_container">
+  	<h1>Send us a message</h1>
+  	<form id="form_2866">
+  	<label class="description" for="element_3">Subject </label>
+  	<div>
+  		<input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255" value=""/>
+      <!-- Text box with maximum characters of 255 -->
+  	</div>
+  	<label class="description" for="element_1">Email </label>
+  	<div>
+  		<input id="element_1" type="text" maxlength="255" value=""/>
+		</div>
+ 		<div>
+  		<textarea id="element_2" name="element_2" class="element textarea medium"></textarea>
+  		</div>
+      <!-- Submit button to send the form info -->
+  		<input type="submit" value="Submit">
+  </div>
+
+  	<div id="googleMap"></div>
+<!-- Here the div is displaying a google map to show the location of the campus -->
+  <script>
+  function myMap() {
+  var location= {lat: 24.737387, lng: 46.700679};
+  var map = new google.maps.Map(document.getElementById("googleMap"), {
+      zoom:16,
+      center:location
+  });
+}
+  </script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd0DwgTi-lkGiPPTuJpWK2Q8ZbUrG_ukI&callback=myMap"></script>
+  
+<footer> 
+<p> Check our </br>social media presence </br>
+<a href="www.twitter.com"><i id="twitter" class="fab fa-twitter"></i></a>&nbsp
+<a href="www.plus.google.com"><i id="googlePlus" class="fab fa-google-plus-g"></i></a>&nbsp
+<a href="www.facebook.com"><i id="facebook"class="fab fa-facebook"></i></a>
+</p>
+</footer>
+</div>
+</body>
+</html>

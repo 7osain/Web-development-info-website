@@ -1,0 +1,8 @@
+/*formatting how the video will appear in the javascript page*/
+#jsVideo {
+	margin-left: 20%;
+	border-radius: 8px;
+	border-style: solid;
+	border-size: 15px;
+	border-color: #7952b3;
+}
